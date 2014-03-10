@@ -1,6 +1,6 @@
 //Maya ASCII 2013 scene
 //Name: Shotgun.ma
-//Last modified: Sun, Mar 09, 2014 02:19:32 PM
+//Last modified: Mon, Mar 10, 2014 01:26:54 PM
 //Codeset: 1252
 requires maya "2013";
 requires "Mayatomr" "2013.0 - 3.10.1.4 ";
@@ -14,14 +14,14 @@ fileInfo "osv" "Microsoft Windows 7 Home Premium Edition, 64-bit Windows 7 Servi
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -19.663739302337412 16.650808357383223 10.034602360108316 ;
-	setAttr ".r" -type "double3" -31.800000000000274 -50.399999999994371 -7.4845504702068942e-015 ;
+	setAttr ".t" -type "double3" -28.351139705581232 -3.0840516058458096 5.5717118338300606 ;
+	setAttr ".r" -type "double3" 7.7999999999981213 -81.99999999999514 0 ;
 	setAttr ".rpt" -type "double3" -4.9673929265553141e-015 -2.4922495271030628e-015 
 		-2.5749137733697345e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 29.348040027213266;
+	setAttr ".coi" 30.496069023379984;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";

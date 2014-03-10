@@ -1,6 +1,6 @@
 //Maya ASCII 2013 scene
 //Name: Enemy.ma
-//Last modified: Sun, Mar 09, 2014 02:05:24 PM
+//Last modified: Mon, Mar 10, 2014 02:17:46 PM
 //Codeset: 1252
 requires maya "2013";
 currentUnit -l centimeter -a degree -t film;
@@ -11,21 +11,21 @@ fileInfo "cutIdentifier" "201202220241-825136";
 fileInfo "osv" "Microsoft Windows 7 Home Premium Edition, 64-bit Windows 7 Service Pack 1 (Build 7601)\n";
 createNode transform -s -n "persp";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.7158866218312596 45.169840009053793 -48.302639626579875 ;
-	setAttr ".r" -type "double3" 140.66164727003093 -7.0000000000503801 179.99999999999991 ;
+	setAttr ".t" -type "double3" 3.9627215863199914 15.135155525291516 -30.530320671991504 ;
+	setAttr ".r" -type "double3" 160.46164727003057 7.3999999999497357 179.99999999999994 ;
 createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
 	setAttr ".ncp" 0.001;
-	setAttr ".coi" 63.942475805182518;
+	setAttr ".coi" 32.647429785538669;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 4.7683715864721421e-007 7.0602073669433594 -0.0190582275390625 ;
+	setAttr ".tp" -type "double3" 4.76837158203125e-007 4.2166218757629395 -0.0190582275390625 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.26183528834996528 100.10127192503059 0.29134540130887948 ;
+	setAttr ".t" -type "double3" -0.26183528834996528 100.1012719250306 0.29134540130887948 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
 	setAttr -k off ".v" no;
@@ -28098,7 +28098,7 @@ createNode animCurveTL -n "group1_translateZ";
 	setAttr ".wgt" no;
 	setAttr -s 3 ".ktv[0:2]"  1 0 12 0 24 0;
 createNode lambert -n "lambert4";
-	setAttr ".c" -type "float3" 1 0.23333335 0 ;
+	setAttr ".c" -type "float3" 1 0.10000002 0 ;
 createNode shadingEngine -n "lambert4SG";
 	setAttr ".ihi" 0;
 	setAttr ".ro" yes;

@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 39dd4cb42d93540409cbcb4558bf5338
+guid: 605fd3cb5d215cf4d8fac520b48b6348
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: place3dTexture1
-    100004: revolvedSurface1
     400000: //RootNode
-    400002: place3dTexture1
-    400004: revolvedSurface1
     2300000: //RootNode
-    2300002: revolvedSurface1
     3300000: //RootNode
-    3300002: revolvedSurface1
-    4300000: revolvedSurface1
+    4300000: polySurface1
     9500000: //RootNode
   materials:
     importMaterials: 1
